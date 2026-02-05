@@ -20,8 +20,6 @@ arrows:4+8,3+9
 Use this command and fiddle with the inserted template:
 <img width="742" height="110" alt="image" src="https://github.com/user-attachments/assets/24c2fe64-5ca0-4b8a-b03b-81039861dcf0" />
 
-
-
 # Configuration
 ## Possible configuration
 - the cube's size, width and height from 2 to 10
@@ -36,6 +34,19 @@ cubeColor:ff0 // yellow background
 arrowColor:08f // sky blue arrows
 // no arrows
 ```
+
+## Things that will come
+- OLL visualization
+- F2L visualization
+- plugin settings
+- size configuration
+
+
+This is my first public repository and plugin, please be gentle :)
+
+Feedback welcome
+
+---
 
 ## Some Examples
 ```
@@ -62,14 +73,4 @@ arrowColor:f00 // red, "ff0000" is also possible
 arrows:1-2
 ```
 Would create the same, but with a red arrow on a green cube.
-
-## Things that will come
-- OLL visualization
-- F2L visualization
-- plugin settings
-- size configuration
-
-
-This is my first public repository and plugin, please be gentle :)
-Feedback welcome
 
