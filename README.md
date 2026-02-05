@@ -11,7 +11,7 @@ A cube with some arrows, followed by your favourite algorithm to solve it:
 
 <img width="381" height="356" alt="image" src="https://github.com/user-attachments/assets/768f0602-750f-4a62-93f2-3b44b513e6ac" />
 
-This exact image is created by writing the following codeblock (named 'twistyCubePll'):
+This exact image is created by writing the following codeblock (named 'rubikCubePLL'):
 ```
 dimension:3,3
 arrows:4+8,3+9
@@ -30,7 +30,7 @@ Use this command and fiddle with the inserted template:
 - arrow coordinates
 
 ## Default configuration
-```twistyCubePll
+```rubikCubePLL
 dimension:3,3 // width, height
 cubeColor:ff0 // yellow background 
 arrowColor:08f // sky blue arrows
