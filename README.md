@@ -20,7 +20,7 @@ arrows:4+8,3+9
 Use this command and fiddle with the inserted template:
 <img width="742" height="110" alt="image" src="https://github.com/user-attachments/assets/24c2fe64-5ca0-4b8a-b03b-81039861dcf0" />
 
----
+
 
 # Configuration
 ## Possible configuration
@@ -67,6 +67,7 @@ Would create the same, but with a red arrow on a green cube.
 - OLL visualization
 - F2L visualization
 - plugin settings
+- size configuration
 
 
 This is my first public repository and plugin, please be gentle :)
