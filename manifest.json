@@ -5,7 +5,6 @@
 	"minAppVersion": "0.15.0",
 	"description": "Visualizes Rubik Cube algorithms.",
 	"author": "Altarok",
-	"authorUrl": "none",
-	"fundingUrl": "none",
+	"authorUrl": "https://github.com/Altarok/RubikCubeAlgoView",
 	"isDesktopOnly": false
 }
