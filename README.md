@@ -21,24 +21,26 @@ Use this command and fiddle with the inserted template:
 <img width="742" height="110" alt="image" src="https://github.com/user-attachments/assets/24c2fe64-5ca0-4b8a-b03b-81039861dcf0" />
 
 # Configuration
-## Possible configuration
+## Code block configuration
 - the cube's size, width and height from 2 to 10
 - the cube's color, 3- or 6- digit hex-value
 - the arrows' color, 3- or 6- digit hex-value
 - arrow coordinates
-
-## Default configuration
+### Default values
 ```rubikCubePLL
 dimension:3,3 // width, height
 cubeColor:ff0 // yellow background 
 arrowColor:08f // sky blue arrows
 // no arrows
 ```
+## Plugin configuration
+- the cubes' default color, 3- or 6- digit hex-value
+- the arrows' default color, 3- or 6- digit hex-value
 
-## Things that will come
+
+# Things that will come
 - OLL visualization
 - F2L visualization
-- plugin settings
 - size configuration
 
 
@@ -53,14 +55,16 @@ Feedback welcome
 dimension:2,2 // width, height
 arrows:1.1-1.2
 ```
-Would create a 2x2 Cube with an arrow from the first to the second rectangle in the first row.
+Would create a 2x2 Cube with a fixed-coordinates arrow from the first to the second rectangle in the first row.
 Arrow coordinates go from top-left to bottom-right. First integer is row, second integer is column.
+Arrows with fixed coordinates do not change position when resizing the cube.
 ```
 dimension:2,2
 arrows:1-2 // "lazy" coordinates
 ```
 Would create the same. Notice the "lazy" arrow coordinates.
 It just gives each rectangle an integer. 
+Arrows with lazy coordinates do change position when resizing the cube.
 ```
 dimension:2,2
 arrows:1+2 // "+" makes this a double-sided arrow
