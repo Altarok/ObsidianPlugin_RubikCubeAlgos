@@ -4,10 +4,6 @@
 .npmrc
 AGENTS.md
 data.json
-esbuild.config.mjs
-eslint.config.mts
 LICENSE
 package-lock.json
 tsconfig.json
-version-bump.mjs
-versions.json
