@@ -1,9 +1,1 @@
 /node_modules
-/src
-.editorconfig
-.npmrc
-AGENTS.md
-data.json
-LICENSE
-package-lock.json
-tsconfig.json
