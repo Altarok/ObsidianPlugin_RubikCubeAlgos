@@ -1,7 +1,7 @@
 {
 	"id": "Altarok.rubikCubeAlgos",
 	"name": "Rubik Cube algorithms",
-	"version": "1.0.1",
+	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Visualizes Rubik Cube algorithms.",
 	"author": "Altarok",
